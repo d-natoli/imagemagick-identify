@@ -5,11 +5,11 @@ require 'imagemagick/identify/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "imagemagick-identify"
-  spec.version       = Imagemagick::Identify::VERSION
+  spec.version       = ImageMagick::Identify::VERSION
   spec.authors       = ["Dane Natoli"]
   spec.email         = ["dane.natoli@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A wrapper around ImageMagick's identify command}
+  spec.summary       = %q{A wrapper around ImageMagick's identify command}
   spec.homepage      = ""
   spec.license       = "MIT"
 

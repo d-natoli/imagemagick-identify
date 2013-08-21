@@ -1,8 +1,10 @@
-# Imagemagick::Identify
+# ImageMagick::Identify
 
-TODO: Write a gem description
+A wrapper around ImageMagick's identify command
 
 ## Installation
+
+Install [ImageMagick](http://www.imagemagick.org/script/index.php) on your server using your favourite package manager.
 
 Add this line to your application's Gemfile:
 
@@ -18,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create an `ImageMagick::Identify` object using `ImageMagick::Identify(<filename>)`, then call `run` on it.  It will return you an `ImageMagick::Result` which contains the attreibutes of that image.
 
 ## Contributing
 
